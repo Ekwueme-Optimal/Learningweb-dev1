@@ -4,6 +4,22 @@
     font-family: 'Courier New', Courier, monospace;
 
 }
+#home{
+    height: 100vh;
+    width: 100%;
+    background-color: blueviolet;
+    background-color: rgb(255, 255, 0);
+    background-color: #0000ff;
+    background: linear-gradient(45deg,green 20%,#0000ff 60%,rgb(255, 255, 0)90%);
+    background: radial-gradient(closest-side at 90% 50%, red,blueviolet);
+    background-image: url(../assesst/pexels-filiberto-giglio-20230232.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 50% 30%;
+    background-attachment: fixed;
+ 
+
+}
 
 .card {
     /* border: 2px solid red: */
@@ -11,6 +27,6 @@
     width: 300px;
     padding: 20;
     display: inline-block;
-    /*
+
 
 }
