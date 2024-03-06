@@ -3,6 +3,10 @@
   <head>
     <title>WEB DESIGN</title>
     <style>
+      *{
+        margin: 0;
+        padding: 0;
+      }
       ol li{
         color:greenyellow
       }
@@ -17,6 +21,35 @@
       }
       span{
         color:slateblue
+      }
+      .box1{
+        border-color: rgb(255, 0, 60);
+        border-style: double;
+        border-width: 5px;
+
+        padding-top: 20px;
+        padding-right: 20px;
+        padding-bottom: 20px;
+        padding-left: 20px;
+        /* We can use the below instead of specifying different property for the padding */
+        padding: 20px 20px 20px 20px;
+        /* If the value will be the same for all direction we can just set it a single value  */
+        padding: 20px;
+        padding: 50px 20px;
+
+        margin-top: 20px;
+        margin-right: 20px;
+        margin-bottom: 20px;
+        margin-left: 20px;
+
+      }
+
+      .btn{
+        border: 2px solid red;
+        padding: 5px 15px;
+        margin: 20px 0 0 20px;
+        background-color: blueviolet;
+        border-radius: 5px;
       }
     </style>
   </head>
@@ -218,4 +251,6 @@ The quick 		 brown fox jumped
       </table>
     </main>
   </body>
+  <button class="btn">Click me</button>
+    <p class="box1">Hello World</p>
 </html>
